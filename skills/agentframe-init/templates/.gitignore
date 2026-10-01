@@ -1,0 +1,10 @@
+# Agent scratch work
+.agent-data/scratch/
+.agent-data/discussion-notes/
+
+# Editor junk
+*.swp
+*.bak
+*~
+.DS_Store
+Thumbs.db
