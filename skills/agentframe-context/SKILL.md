@@ -14,10 +14,13 @@ Maintain `.agentframe/context.md`. Acts as the gatekeeper for project identity.
 Called by other skills (e.g., `agentframe-discuss`) after major decisions.
 
 ## Workflow
-1. **Read:** Load `.agentframe/context.md`.
-2. **Update:** Integrate new info (goals, tech stack, conventions).
-3. **Refine:** Ensure the file stays concise and accurate.
-4. **Write:** Save to `.agentframe/context.md`.
+1. **Investigate:** Scan existing project files to understand what the project is. Look at `README.md`, `package.json`, `requirements.txt`, `Cargo.toml`, source directory structure, config files, and any existing documentation.
+2. **Form Hypothesis:** Based on the files, determine the project's purpose, goals, tech stack, and conventions.
+3. **Confirm with User:** Present findings to the user: *"I see this is a [description]. Tech stack is [stack]. Is that right?"* Let the user confirm or correct.
+4. **Read:** Load `.agentframe/context.md` if it exists.
+5. **Update:** Integrate confirmed info (goals, tech stack, conventions).
+6. **Refine:** Ensure the file stays concise and accurate.
+7. **Write:** Save to `.agentframe/context.md`.
 
 ## Rules
 - Only this skill writes to `context.md`.
