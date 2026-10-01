@@ -1,11 +1,11 @@
 # Agent Data
 
-The `.agent-data/` directory is the agent's working memory. It contains the current state of the project: what it is, what we're doing, and why we made certain choices.
+The `.agentframe/` directory is the agent's working memory. It contains the current state of the project: what it is, what we're doing, and why we made certain choices.
 
 ## Structure
 
 ```
-.agent-data/
+.agentframe/
   context.md       # Project overview, current focus, conventions
   decisions.md     # ADRs, recorded choices with reasoning
   discussion-notes/ # Temporary brainstorming per topic (ignored by git)
@@ -37,9 +37,9 @@ The "why did we do it this way?" file. A chronological log of architecture decis
 
 ```markdown
 ## 2026-09-09: Project Structure
-- **Decision:** Use `.agent-data/` for agent working memory, `docs/` for published documentation
+- **Decision:** Use `.agentframe/` for agent working memory, `docs/` for published documentation
 - **Reasoning:** Clear separation between agent-first and human-first content.
-- **Rejected:** `.project/`, `.ai/`, `.agents/` — `.agent-data/` is most explicit.
+- **Rejected:** `.project/`, `.ai/`, `.agents/` — `.agentframe/` is most explicit.
 ```
 
 ## Folders

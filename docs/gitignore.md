@@ -9,10 +9,10 @@ These files are committed to the repository:
 - `AGENTS.md` — Agent instructions.
 - `README.md` — Human quick-start.
 - `docs/` — Published documentation.
-- `.agent-data/context.md` — Project overview.
-- `.agent-data/decisions.md` — Recorded choices.
-- `.agent-data/plans/` — Phase plans, roadmaps.
-- `.agent-data/scripts/` — Project automation.
+- `.agentframe/context.md` — Project overview.
+- `.agentframe/decisions.md` — Recorded choices.
+- `.agentframe/plans/` — Phase plans, roadmaps.
+- `.agentframe/scripts/` — Project automation.
 
 **Why tracked:** These files contain shared, durable knowledge that any team member or agent needs to understand the project.
 
@@ -20,7 +20,7 @@ These files are committed to the repository:
 
 These files are excluded from the repository:
 
-- `.agent-data/scratch/` — Temporary working notes.
+- `.agentframe/scratch/` — Temporary working notes.
 - `*.swp`, `*.bak`, `*~` — Editor temp files.
 - `.DS_Store`, `Thumbs.db` — OS junk.
 
@@ -30,7 +30,7 @@ These files are excluded from the repository:
 
 ```gitignore
 # Agent scratch work
-.agent-data/scratch/
+.agentframe/scratch/
 
 # Editor junk
 *.swp
@@ -43,12 +43,12 @@ Thumbs.db
 ## Edge Cases
 
 ### Meeting notes with decisions
-- **Track them.** If a meeting note contains a decision, move it to `.agent-data/decisions.md` or `.agent-data/plans/`.
-- **Ignore raw logs.** If it's just a transcript with no decisions, keep it in `.agent-data/scratch/`.
+- **Track them.** If a meeting note contains a decision, move it to `.agentframe/decisions.md` or `.agentframe/plans/`.
+- **Ignore raw logs.** If it's just a transcript with no decisions, keep it in `.agentframe/scratch/`.
 
 ### Research notes
-- **Track if it informed a decision.** If research led to an architecture choice, record it in `.agent-data/decisions.md`.
-- **Ignore raw dumps.** If it's just collected links or notes, keep it in `.agent-data/scratch/`.
+- **Track if it informed a decision.** If research led to an architecture choice, record it in `.agentframe/decisions.md`.
+- **Ignore raw dumps.** If it's just collected links or notes, keep it in `.agentframe/scratch/`.
 
 ### Completed plans
 - **Keep them tracked.** Completed plans provide historical context. Rename them with a `done-` prefix or move them to an `archive/` folder if desired.

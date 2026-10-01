@@ -14,7 +14,7 @@ Execute the "Implement" phase of the workflow. Guides step-by-step execution of 
 "Implement plan", "Start implementation", "Execute task".
 
 ## Workflow
-1. **Read the Plan:** Load the relevant `.agent-data/plans/task-name.md`.
+1. **Read the Plan:** Load the relevant `.agentframe/plans/task-name.md`.
 2. **Step-by-Step Execution:** Work through the checkboxes one by one.
 3. **Update the Plan:** Check off boxes (`- [x]`) as they are completed.
 4. **Update Docs:** Update `docs/` with relevant details (e.g., API endpoints, architecture changes) as features are implemented. Update `README.md` only if explicitly requested.

@@ -22,7 +22,7 @@ Before any planning, the agent and user discuss the problem and theorize about s
 - **Explore options.** What are the possible approaches?
 - **Debate trade-offs.** What are the pros and cons of each?
 - **Reach consensus.** Agree on a direction.
-- **Discussion Notes:** Create `.agent-data/discussion-notes/topic.md` for unstructured brainstorming. One file per topic.
+- **Discussion Notes:** Create `.agentframe/discussion-notes/topic.md` for unstructured brainstorming. One file per topic.
 
 The agent should:
 - Ask clarifying questions about ambiguous premises.
@@ -36,9 +36,9 @@ Once the direction is clear, create a plan.
 
 - **Break it down.** Divide the work into small, manageable steps.
 - **Prioritize.** Order the steps by dependency and importance.
-- **Document.** Write the plan to `.agent-data/plans/task-name.md`.
+- **Document.** Write the plan to `.agentframe/plans/task-name.md`.
 - **Review.** Show the plan to the user for feedback.
-- **Cleanup:** Delete the corresponding `.agent-data/discussion-notes/topic.md` once the plan is written.
+- **Cleanup:** Delete the corresponding `.agentframe/discussion-notes/topic.md` once the plan is written.
 
 The plan should be specific enough to execute but flexible enough to adapt.
 
@@ -65,7 +65,7 @@ After implementation, review the work.
 - **What didn't?** What would we do differently?
 - **What's next?** What are the upcoming tasks?
 
-Document lessons learned in `.agent-data/decisions.md` or `.agent-data/context.md`.
+Document lessons learned in `.agentframe/decisions.md` or `.agentframe/context.md`.
 
 ## Debate vs Execution
 
@@ -102,4 +102,4 @@ The collaboration process itself should improve over time.
 - **What didn't?** Change it.
 - **What's missing?** Add it.
 
-Document process improvements in `.agent-data/decisions.md`.
+Document process improvements in `.agentframe/decisions.md`.

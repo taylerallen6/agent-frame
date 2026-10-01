@@ -1,14 +1,14 @@
 ---
 name: agentframe-decide
 description: >
-  Record major decisions in `.agent-data/decisions.md`. Use when a significant architectural or project choice is made.
+  Record major decisions in `.agentframe/decisions.md`. Use when a significant architectural or project choice is made.
   Do not use for minor decisions or routine updates.
 ---
 
 # AgentFrame Decide
 
 ## Purpose
-Record major decisions in `.agent-data/decisions.md`.
+Record major decisions in `.agentframe/decisions.md`.
 
 ## Trigger
 "Record decision", "Log choice", "Add ADR".
@@ -26,9 +26,9 @@ Called by other skills (e.g., `agentframe-discuss`) when a major decision is mad
      - **Rejected:** Alternatives considered.
      ```
 3. **Append:**
-   - Add the entry to `.agent-data/decisions.md`.
+   - Add the entry to `.agentframe/decisions.md`.
 4. **Confirm:**
    - Show the entry to the user for verification.
 
 ## Output
-- Updated `.agent-data/decisions.md`.
+- Updated `.agentframe/decisions.md`.

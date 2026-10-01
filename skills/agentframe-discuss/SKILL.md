@@ -15,7 +15,7 @@ Facilitate the "Discuss/Theorize" phase of the workflow.
 
 ## Workflow
 1. **Create Notes:**
-   - Create `.agent-data/discussion-notes/topic.md`.
+   - Create `.agentframe/discussion-notes/topic.md`.
 2. **Discuss:**
    - Ask clarifying questions.
    - Explore options and trade-offs.
@@ -28,5 +28,5 @@ Facilitate the "Discuss/Theorize" phase of the workflow.
    - If consensus is reached, suggest moving to `agentframe-plan`.
 
 ## Output
-- Updated `.agent-data/discussion-notes/topic.md`.
+- Updated `.agentframe/discussion-notes/topic.md`.
 - Potential triggers for `agentframe-decide`, `agentframe-context`, or `agentframe-plan`.

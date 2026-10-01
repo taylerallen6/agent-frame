@@ -3,8 +3,8 @@
 ## Phase 1: Foundation (Structure)
 1. **`docs/structure.md`**
    - Full directory tree, audience split, visual diagram.
-2. **`docs/agent-data.md`**
-   - Deep dive on `.agent-data/`: files, folders, naming, lifecycle.
+2. **`docs/agentframe.md`**
+    - Deep dive on `.agentframe/`: files, folders, naming, lifecycle.
 
 ## Phase 2: Process & Collaboration (The "How We Work" part)
 3. **`docs/collaboration.md`**

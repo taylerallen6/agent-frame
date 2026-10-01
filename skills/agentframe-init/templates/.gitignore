@@ -1,6 +1,6 @@
 # Agent scratch work
-.agent-data/scratch/
-.agent-data/discussion-notes/
+.agentframe/scratch/
+.agentframe/discussion-notes/
 
 # Editor junk
 *.swp

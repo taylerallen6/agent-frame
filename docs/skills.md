@@ -9,7 +9,7 @@ Skills are reusable workflows that guide the agent through specific tasks. They 
 - **Purpose:** Initialize a new project with the AgentFrame structure.
 - **Trigger:** "Start a new project" or "Initialize agent data."
 - **Workflow:**
-  1. Create the directory structure (`docs/`, `.agent-data/`, etc.).
+  1. Create the directory structure (`docs/`, `.agentframe/`, etc.).
   2. Write initial `context.md` with project goals and tech stack.
   3. Create `AGENTS.md` with basic instructions.
   4. Set up `.gitignore` with tracking rules.
@@ -17,33 +17,33 @@ Skills are reusable workflows that guide the agent through specific tasks. They 
 
 ### `agentframe-plan`
 
-- **Purpose:** Create and manage plans inside `.agent-data/plans/`.
+- **Purpose:** Create and manage plans inside `.agentframe/plans/`.
 - **Trigger:** "Plan feature X" or "Create a phase plan."
 - **Workflow:**
   1. Discuss the scope with the user.
   2. Break the work into small, manageable steps.
   3. Prioritize steps by dependency and importance.
-  4. Write the plan to `.agent-data/plans/feature-x.md`.
+  4. Write the plan to `.agentframe/plans/feature-x.md`.
   5. Show the plan to the user for feedback.
   6. Update the plan based on feedback.
 
 ### `agentframe-decide`
 
-- **Purpose:** Record decisions in `.agent-data/decisions.md`.
+- **Purpose:** Record decisions in `.agentframe/decisions.md`.
 - **Trigger:** "Record our decision to use Redis" or "Log an ADR."
 - **Workflow:**
   1. Capture the decision, reasoning, and rejected alternatives.
   2. Format the entry with a date and clear structure.
-  3. Append to `.agent-data/decisions.md`.
+  3. Append to `.agentframe/decisions.md`.
   4. Confirm with the user that the decision is recorded correctly.
 
 ### `agentframe-context`
 
-- **Purpose:** Maintain `.agent-data/context.md`.
+- **Purpose:** Maintain `.agentframe/context.md`.
 - **Trigger:** "Update project goals" or "Add tech stack info."
 - **Workflow:**
   1. Prompt the user for changes to project goals, tech stack, or conventions.
-  2. Update `.agent-data/context.md` with the new information.
+  2. Update `.agentframe/context.md` with the new information.
   3. Keep the file concise (under 300 lines for agent readability).
   4. Confirm with the user that the context is accurate.
 
@@ -52,7 +52,7 @@ Skills are reusable workflows that guide the agent through specific tasks. They 
 - **Purpose:** Execute the "Implement" phase of the workflow.
 - **Trigger:** "Implement plan", "Start implementation", "Execute task".
 - **Workflow:**
-  1. Read the plan from `.agent-data/plans/task-name.md`.
+  1. Read the plan from `.agentframe/plans/task-name.md`.
   2. Execute steps one by one.
   3. Update the plan file (check off boxes).
   4. Update `docs/` with relevant details.

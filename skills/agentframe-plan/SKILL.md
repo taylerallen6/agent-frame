@@ -15,7 +15,7 @@ Facilitate the "Plan" phase of the workflow.
 
 ## Workflow
 1. **Check Notes:**
-   - Look for `.agent-data/discussion-notes/topic.md`.
+   - Look for `.agentframe/discussion-notes/topic.md`.
    - **If Missing:**
      - Strongly suggest using `agentframe-discuss` first.
      - Ask if notes might be under a different name.
@@ -23,16 +23,16 @@ Facilitate the "Plan" phase of the workflow.
    - **If Present:**
      - Read notes.
 2. **Create Plan:**
-   - Write `.agent-data/plans/task-name.md`.
+   - Write `.agentframe/plans/task-name.md`.
    - Include scope, steps (checkboxes), and status.
 3. **Cleanup:**
-   - Delete the corresponding `.agent-data/discussion-notes/topic.md`.
+   - Delete the corresponding `.agentframe/discussion-notes/topic.md`.
 4. **Review:**
    - Show the plan to the user for approval.
 5. **Archive:**
-   - If a plan is completed (all steps checked), move it to `.agent-data/plans/archive/`.
+   - If a plan is completed (all steps checked), move it to `.agentframe/plans/archive/`.
 
 ## Output
-- New or updated `.agent-data/plans/task-name.md`.
+- New or updated `.agentframe/plans/task-name.md`.
 - Deleted discussion notes.
 - Archived completed plans.

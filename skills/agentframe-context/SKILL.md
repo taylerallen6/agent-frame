@@ -1,23 +1,23 @@
 ---
 name: agentframe-context
 description: >
-  Maintain `.agent-data/context.md`. Use when project goals, tech stack, or conventions change.
+  Maintain `.agentframe/context.md`. Use when project goals, tech stack, or conventions change.
   Do not use for temporary notes or minor updates.
 ---
 
 # AgentFrame Context
 
 ## Purpose
-Maintain `.agent-data/context.md`. Acts as the gatekeeper for project identity.
+Maintain `.agentframe/context.md`. Acts as the gatekeeper for project identity.
 
 ## Trigger
 Called by other skills (e.g., `agentframe-discuss`) after major decisions.
 
 ## Workflow
-1. **Read:** Load `.agent-data/context.md`.
+1. **Read:** Load `.agentframe/context.md`.
 2. **Update:** Integrate new info (goals, tech stack, conventions).
 3. **Refine:** Ensure the file stays concise and accurate.
-4. **Write:** Save to `.agent-data/context.md`.
+4. **Write:** Save to `.agentframe/context.md`.
 
 ## Rules
 - Only this skill writes to `context.md`.
@@ -25,4 +25,4 @@ Called by other skills (e.g., `agentframe-discuss`) after major decisions.
 - Focus on durable knowledge (goals, stack, conventions).
 
 ## Output
-- Updated `.agent-data/context.md`.
+- Updated `.agentframe/context.md`.

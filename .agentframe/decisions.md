@@ -1,9 +1,9 @@
 # Decisions Log
 
 ## 2026-09-09: Project Structure
-- **Decision:** Use `.agent-data/` for agent working memory, `docs/` for published documentation
-- **Reasoning:** Clear separation between agent-first and human-first content. Explicit naming avoids confusion.
-- **Rejected:** `.project/`, `.ai/`, `.agents/` — `.agent-data/` is most explicit.
+- **Decision:** Use `.agentframe/` for agent working memory, `docs/` for published documentation
+- **Reasoning:** Clear separation between agent-first and human-first content.
+- **Rejected:** `.project/`, `.ai/`, `.agents/` — `.agentframe/` is most explicit.
 
 ## 2026-09-09: Minimal Agent Data Structure
 - **Decision:** 3 files (`context.md`, `decisions.md`), 3 folders (`plans/`, `scratch/`, `scripts/`)
